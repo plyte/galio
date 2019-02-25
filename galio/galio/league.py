@@ -31,7 +31,6 @@ class League(object):
         self.api_key = api_key
         self._objector = None
         self._controller = None
-        self.user_agent = None
         self.config = Config(api_key, **config_settings)
 
         required_message = ('Required configuration setting {!r} missing. \n',
